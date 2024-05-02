@@ -42,7 +42,7 @@ export default function BuyLayout() {
   return (
     <div className="w-full h-[540px] sm:h-96 max-w-[700px] rounded-3xl bg-[#dae3eaa0] px-8 sm:px-12 py-8 flex flex-col gap-3 sm:gap-6">
       <span className="font-inter font-bold text-[#000000] text-sm sm:text-lg">
-        Please Enter The CLUB Amount
+        Please Enter The DVN Amount
       </span>
       <div className="flex flex-col items-center gap-2 sm:flex-row">
         <div className="h-32 rounded-[20px] bg-[#e6f1fa] flex flex-col justify-between px-5 py-5 shadow-[0_0_50px_0_#00000010]">
@@ -87,7 +87,7 @@ export default function BuyLayout() {
             <div className="w-40 h-10 px-2 py-1 flex flex-row items-center justify-between rounded-full bg-[#c1cfd7]">
               <img alt="sol" src="/images/club.png" className="h-full" />
               <span className="font-inter font-bold text-[#000000] text-sm">
-                CLUB
+                DVN
               </span>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function BuyLayout() {
       </div>
       <div className="flex flex-col items-center font-inter font-normal text-[#000000] text-xs sm:text-sm">
         <span className="text-center">
-          CLUB remaining for your wallet limit:{" "}
+          DVN remaining for your wallet limit:{" "}
           {remainBuyAmount.toLocaleString(undefined, {
             minimumFractionDigits: 0,
             maximumFractionDigits: 4,
@@ -118,7 +118,7 @@ export default function BuyLayout() {
             className={`px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold`}
             onClick={onBuyToken}
           >
-            BUY CLUB
+            BUY DVN
           </button>
         )}
         {transactionPending && (

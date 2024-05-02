@@ -8,8 +8,8 @@ export const TOKEN_PUBKEY = new PublicKey(
   "BUDNS9JNrwjixKLoqhaQHz4x1HspWaDUXYVGRm2kWrf4"
 );
 
-export const PRESALE_SEED = "CLUB_PRESALE_SEED";
-export const USER_SEED = "CLUB_USER_SEED";
+export const PRESALE_SEED = "DVN_PRESALE_SEED";
+export const USER_SEED = "DVN_USER_SEED";
 export const PRESALE_ID = 1;
 
 export const PRESALE_AUTHORITY = new PublicKey(

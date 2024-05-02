@@ -7,7 +7,7 @@ export type TokenPresale = {
         "type": {
           "defined": "&[u8]"
         },
-        "value": "b\"CLUB_PRESALE_SEED\""
+        "value": "b\"DVN_PRESALE_SEED\""
       }
     ],
     "instructions": [
@@ -655,7 +655,7 @@ export const IDL: TokenPresale = {
         "type": {
           "defined": "&[u8]"
         },
-        "value": "b\"CLUB_PRESALE_SEED\""
+        "value": "b\"DVN_PRESALE_SEED\""
       }
     ],
     "instructions": [

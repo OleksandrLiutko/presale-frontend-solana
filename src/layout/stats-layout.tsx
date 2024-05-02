@@ -52,7 +52,7 @@ export default function StatsLayout() {
               minimumFractionDigits: 0,
               maximumFractionDigits: 2,
             })}{" "}
-            CLUB
+            DVN
           </span>
         </div>
         <div className="flex flex-col items-center sm:items-start">
@@ -64,12 +64,12 @@ export default function StatsLayout() {
               minimumFractionDigits: 0,
               maximumFractionDigits: 2,
             })}{" "}
-            CLUB
+            DVN
           </span>
         </div>
         <div className="flex flex-col items-center sm:items-start">
           <span className="font-normal text-sm text-[#000000]">
-            CLUB Price:
+            DVN Price:
           </span>
           <span className="font-normal text-base text-[#000000]">
             {PRICE_PER_TOKEN.toLocaleString(undefined, {
