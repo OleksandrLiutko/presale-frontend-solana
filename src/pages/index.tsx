@@ -46,43 +46,43 @@ export default function Home() {
       <div className="w-full max-w-[1440px] px-5 py-9 relative flex flex-col gap-12">
         <div className="flex flex-row items-center gap-2">
           <button
-            className="px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
+            className="px-5 py-2 bg-[#a38e18] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
             onClick={onCreatePresale}
           >
             Create Presale
           </button>
           <button
-            className="px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
+            className="px-5 py-2 bg-[#a38e18] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
             onClick={onDepositToken}
           >
             Deposit Token
           </button>
           <button
-            className="px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
+            className="px-5 py-2 bg-[#a38e18] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
             onClick={onUpdatePresale}
           >
             Update Presale
           </button>
           <button
-            className="px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
+            className="px-5 py-2 bg-[#a38e18] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
             onClick={onClaimClub}
           >
             Claim Club
           </button>
           <button
-            className="px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
+            className="px-5 py-2 bg-[#a38e18] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
             onClick={onWithdrawSol}
           >
             Withdraw Sol
           </button>
           <button
-            className="px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
+            className="px-5 py-2 bg-[#a38e18] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
             onClick={onWithdrawToken}
           >
             Withdraw Token
           </button>
           <button
-            className="px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
+            className="px-5 py-2 bg-[#a38e18] rounded-full text-[#eff3f6] font-inter text-sm font-bold"
             onClick={onUpdateAuth}
           >
             Update Auth

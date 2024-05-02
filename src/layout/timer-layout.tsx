@@ -52,7 +52,7 @@ export default function TimerLayout() {
             renderer={renderer}
           />
         ) : (
-          <span className="text-3xl font-bold text-[#d00711]">
+          <span className="text-3xl font-bold text-[#a38e18]">
             Presale Completed.
           </span>
         )}
@@ -72,7 +72,7 @@ export default function TimerLayout() {
 }
 
 const Completionist = () => (
-  <span className="text-3xl font-bold text-[#d00711]">You are good to go!</span>
+  <span className="text-3xl font-bold text-[#a38e18]">You are good to go!</span>
 );
 
 interface renderProps {
@@ -116,7 +116,7 @@ interface CounterItemProps {
 const CounterItem: React.FC<CounterItemProps> = ({ label, value }) => {
   return (
     <div className="flex flex-col items-center w-16 gap-1 font-bold sm:gap-2 font-inter">
-      <span className="text-[#d00711] text-2xl sm:text-4xl">
+      <span className="text-[#a38e18] text-2xl sm:text-4xl">
         {String(value).padStart(2, "0")}
       </span>
       <span className="text-[#000000] text-xs sm:text-base">{label}</span>

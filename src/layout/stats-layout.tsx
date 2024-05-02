@@ -111,7 +111,7 @@ const ProcessBar: React.FC<ProcessBarProps> = ({ label, value }) => {
       </div>
       <div className="w-full h-5 sm:h-7 rounded-full bg-[#cccccc] overflow-hidden">
         <div
-          className="h-full bg-[#d00711]"
+          className="h-full bg-[#a38e18]"
           style={{
             width: `${value}%`,
           }}
@@ -123,7 +123,7 @@ const ProcessBar: React.FC<ProcessBarProps> = ({ label, value }) => {
           left: `${value}%`,
         }}
       >
-        <div className="min-w-11 min-h-11 rounded-full bg-[#d00711] flex flex-row items-center justify-center">
+        <div className="min-w-11 min-h-11 rounded-full bg-[#a38e18] flex flex-row items-center justify-center">
           <span className="font-bold text-base text-[#ffffff]">{value}%</span>
         </div>
       </div>

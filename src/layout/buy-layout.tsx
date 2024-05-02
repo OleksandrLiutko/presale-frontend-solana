@@ -50,7 +50,7 @@ export default function BuyLayout() {
             <span className="font-bold">From</span>
           </div>
           <div>
-            <button className="font-inter font-bold bg-[#d00711] text-[#ffffff] text-[9px] px-2 py-1 rounded-full">
+            <button className="font-inter font-bold bg-[#a38e18] text-[#ffffff] text-[9px] px-2 py-1 rounded-full">
               MAX
             </button>
           </div>
@@ -115,7 +115,7 @@ export default function BuyLayout() {
       <div className="flex flex-row justify-center">
         {canBuy && !transactionPending && (
           <button
-            className={`px-5 py-2 bg-[#d00711] rounded-full text-[#eff3f6] font-inter text-sm font-bold`}
+            className={`px-5 py-2 bg-[#a38e18] rounded-full text-[#eff3f6] font-inter text-sm font-bold`}
             onClick={onBuyToken}
           >
             BUY DVN
