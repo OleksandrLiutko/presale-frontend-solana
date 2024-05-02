@@ -27,7 +27,7 @@ export default function Header() {
           <img alt="logo" src="/logo.png" className="h-full" />
           <div className="flex-col items-start hidden sm:flex">
             <span className="font-jolly-lodger text-[#d00711] text-6xl font-normal">
-              KURABU
+              DIVINE
             </span>
             <span className="font-finger-paint text-[#000000] text-xl font-normal">
               PRESALE

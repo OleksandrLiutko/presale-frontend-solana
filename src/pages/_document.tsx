@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>KURABU - ICO</title>
+        <title>DIVINE - ICO</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap"
           rel="stylesheet"
